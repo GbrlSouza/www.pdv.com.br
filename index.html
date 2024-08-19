@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV - Ponto de Venda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Minha Loja</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Usuário: Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-danger text-white" href="#">Sair</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Seção de Produtos -->
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        Produtos Disponíveis
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Produto 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Produto 1</h5>
+                                        <p class="card-text">R$ 100,00</p>
+                                        <button class="btn btn-primary">Adicionar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Repita o bloco acima para mais produtos -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carrinho de Compras -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        Carrinho de Compras
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Produto 1
+                                <span class="badge bg-primary rounded-pill">R$ 100,00</span>
+                            </li>
+                            <!-- Repita o bloco acima para mais itens no carrinho -->
+                        </ul>
+                        <hr>
+                        <h5>Total: R$ 100,00</h5>
+                        <button class="btn btn-success mt-3 w-100">Finalizar Compra</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
