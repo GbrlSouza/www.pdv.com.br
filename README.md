@@ -22,6 +22,8 @@ alpha-pdv/
 │
 ├── backend/               # Código Python (API, lógica de negócios)
 ├── frontend/              # Código Vue.js (interface de usuário)
+├── web/                   # site de apresentação do projeto (Bootstrap || Vue.js)
+├── appweb/                # Aplicação web (Vue.js + Python)
 ├── mobile/                # Aplicação mobile (Vue.js + Quasar/Vuetify)
 ├── desktop/               # Aplicação desktop (Electron + Vue.js)
 ├── docs/                  # Documentação do projeto
